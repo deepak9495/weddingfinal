@@ -2287,14 +2287,14 @@ hr {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-padding4 {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 30px;
   }
 }
 
 @media (max-width: 575px) {
   .section-padding4 {
-    padding-top: 0px;
+    padding-top: 50px;
     padding-bottom: 30px;
   }
 }
@@ -2730,7 +2730,7 @@ hr {
 }
 
 .slider-area2 {
-  background-image: url(../img/hero/stage.jpg);
+  background-image: url(../img/hero/stage.jpg) !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
